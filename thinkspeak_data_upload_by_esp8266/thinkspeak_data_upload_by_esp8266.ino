@@ -73,7 +73,6 @@ void setup()
   esp.wifiCb.attach(&wifiCb);
 
   esp.wifiConnect("esp", "00000000");
-  //esp.wifiConnect("PARASHAR","pandit8285");
   Serial.println("ARDUINO: system started");
 }
 
